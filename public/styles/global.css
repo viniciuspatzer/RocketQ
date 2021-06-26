@@ -71,8 +71,6 @@ button, .button{
     background: var(--blue);
     color: var(--white);
 
-    transition: .2s;
-
     cursor: pointer;
 }
 
