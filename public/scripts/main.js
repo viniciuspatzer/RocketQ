@@ -37,3 +37,12 @@ function handleClick(event, check = true) {
 
     modal.open();
 }
+
+// Copy button
+const copyButton = document.querySelector('.button#room-id');
+
+copyButton.addEventListener('click', function () {
+    const cb = navigator.clipboard;
+    const roomCode = copyButton;
+    cb.writeText(roomCode.innerText).then(() => alert('Código da sala copiado!'));
+});

@@ -1,0 +1,62 @@
+/******* home page *******/
+
+@media screen and (max-width: 960px){
+    #bg{
+        background-position-y: 7.5rem;
+    }
+
+    #home.content{
+            grid-template-columns: 45% 55%;
+            grid-template-rows: 11.4rem 1fr;
+    }
+}
+
+@media screen and (max-width: 768px){
+    #bg{
+        display: none;
+    }
+
+    #home.content{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        'header'
+        'right';
+    }
+
+    main .container{
+        width: 100%;
+        margin: 0 10%;
+    }
+}
+
+
+/******* room page *******/
+@media screen and (max-width: 600px){
+    #room.content{
+        max-width: 97%;
+    }
+
+    #room header img{
+        width: 15rem;
+    }
+    
+    #room header .buttons .button:nth-child(1){
+        margin-right: .75rem;
+        padding: 0 0 0 .75rem;
+    }
+    
+    #room header .buttons .button:nth-child(1) img{
+        margin-left: 0.5rem;
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    
+    #room header .buttons .button:nth-child(2){
+        padding: 0 0.75rem;
+    }
+    
+    #room header .buttons .button:nth-child(2) img{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+}

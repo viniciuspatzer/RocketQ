@@ -27,6 +27,7 @@
 
 #room header .buttons .button:nth-child(2){
     padding: 1.3rem 3.2rem;
+    white-space: nowrap;
 }
 
 #room header .buttons .button:nth-child(2) img{

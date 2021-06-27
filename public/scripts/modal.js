@@ -5,6 +5,18 @@ export default function Modal() {
 
     cancelButton.addEventListener('click', close);
 
+    document.addEventListener('keydown', e => {
+        if (e.key === 'Escape' && modalWrapper.classList.contains('active')) {
+            close();
+        }
+    });
+
+    modalWrapper.addEventListener('click', e => {
+        if (e.target.classList.contains('active')) {
+            close();
+        }
+    });
+
     function open() {
         modalWrapper.classList.add('active');
     }
