@@ -21,6 +21,14 @@
   <img alt="Rocket.Q" src=".github/Rocket_Q.png" width="100%">
 </p>
 
+## ⚔ Challenges
+
+- [ ] Landing Page (in progress)
+  - [x] Responsive/Mobile Friendly
+  - [x] Copy to clipboard button function
+  - [x] Improve modal close function
+  - [X] Improve some code
+
 ## 🚀 Technologies
 
 This project was developed with the following technologies:
@@ -39,7 +47,7 @@ Rocket.q was designed by Rocketseat in the 6th edition of the NLW. The project i
 
 ## 🔖 Layout
 
-You can check the layout by clicking on [this link](https://www.figma.com/file/vp3iFfd1ohCbHyDX9jCiQi/Roquet.q-%2302?node-id=0%3A1). 
+You can check the layout by clicking on [this link](https://www.figma.com/file/vp3iFfd1ohCbHyDX9jCiQi/Roquet.q-%2302?node-id=0%3A1).
 
 ## :memo: License
 
