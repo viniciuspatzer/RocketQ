@@ -23,7 +23,6 @@
 
 ## ⚔ Challenges
 
-- [ ] Landing Page (in progress)
   - [x] Responsive/Mobile Friendly
   - [x] Copy to clipboard button function
   - [x] Improve modal close function
